@@ -1,0 +1,14 @@
+browser: "chrome"
+env: "iot"
+platform: "windows"
+alias: "None"
+blank_page: "about:blank"
+build: "MY"
+saml: "yes"
+url: "https://iprice.my/"
+url_coupons: "https://iprice.my/coupons/"
+BASE_URL: "https://iprice.my/coupons/"
+remote_url: "http://local:4444/wd/hub"
+
+
+
