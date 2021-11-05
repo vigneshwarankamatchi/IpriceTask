@@ -67,8 +67,6 @@ verify each item in “Top Trending Products” contains “data-vars-cgt”
     Run Keyword if   ${AllLinksCount} == ${data-vars-cgt-Count}   log   All the items in “Top Trending Products” contains “data-vars-cgt”
     Run Keyword if   ${AllLinksCount} != ${data-vars-cgt-Count}   Validate that each item for “data-vars-cgt”
 
-
-
 *** Test Cases ***
 a. Grab the list of stores in the “Find the Best Deals Online”
 	[tags]	smoke	tc01

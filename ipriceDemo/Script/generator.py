@@ -14,15 +14,6 @@ class generator:
     def generate_admin_name(self):
         return 'robotadmin'+''.join(random.choice(string.lowercase) for i in range(10))
 
-    def generate_staff_name(self):
-        return 'robotstaff'+''.join(random.choice(string.lowercase) for i in range(10))
-
-    def generate_student_name(self):
-        return 'robotstudent'+''.join(random.choice(string.lowercase) for i in range(10))
-
-    def generate_parent_name(self):
-        return 'robotparent'+''.join(random.choice(string.lowercase) for i in range(10))
-
     def generate_other_name(self):
         return 'robotother'+''.join(random.choice(string.lowercase) for i in range(10))
 
@@ -34,15 +25,6 @@ class generator:
 
     def generate_site_name_by_date(self, prefix='NEWSite'):
         return str(prefix) + '-RobotFramework-' + str(time.strftime("%Y-%m-%d"))
-
-    def generate_site_name_by_time(self, prefix='Site'):
-        return str(prefix) + '-Robot-' + str(time.strftime("%Y-%m-%d-%H-%M-%S"))
-
-    def generate_quiz_name_by_time(self, prefix='Quiz'):
-        return str(prefix) + '-Robot-' + str(time.strftime("%Y-%m-%d-%H-%M-%S"))
-
-    def generate_com_quiz_name_by_time(self, prefix='Quiz'):
-        return str(prefix) + '-Community-' + str(time.strftime("%Y-%m-%d-%H-%M-%S"))
 
     def generate_group_name_by_time(self, prefix='group'):
         return str(prefix) + str(time.strftime("%Y-%m-%d-%H-%M-%S"))
